@@ -52,11 +52,28 @@
 .ex-5-square:active {
     transform: scale(1.1);
 }
-
+/* SESTO ESECIZIO */
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
 }
-ex_
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
+/* SETTIMO ESECIZIO */
+.ex-7-img:hover {
+    filter: grayscale(1);
+}
+.ex-7-img:active {
+    filter: blur(5px);
+}
+/* OTTAVO ESERCIZIO */
+.ex-8-img:hover {
+    filter: blur(10px);
+    border-radius: 50px;
+}
+.ex-8-img:active {
+    filter: grayscale(.7);
+}
 
 .ex-9-img {
     margin: 50px 100px;
