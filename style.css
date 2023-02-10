@@ -74,17 +74,54 @@
 .ex-8-img:active {
     filter: grayscale(.7);
 }
-
+/* NONO ESECIZIO */
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
 }
+.ex-9-img:hover {
+    transform: scale(1.4);
+    border-radius: 50px;
+    filter: blur(10px);
+}
+.ex-9-img:active {
+    transform: scale(1.4);
+    border-radius: 50px;
+    filter: grayscale(.7)
+}
+/* DECIMO ESERCIZIO */
 .ex-10-icon {
     font-size: 60px;
+    animation: spinners 3s linear infinite;
 }
+@keyframes spinners {
+    0% {
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+/* UNDICESIMO ESERCIZIO */
 .ex-11-icon {
     font-size: 60px;
 }
+.ex-11-icon:hover {
+    animation: spin 2s linear 1;
+}
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    
+    85% {
+        transform: rotate(300deg);   
+    }
+}
+
+
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
